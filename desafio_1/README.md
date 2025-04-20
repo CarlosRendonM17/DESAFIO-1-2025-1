@@ -9,7 +9,7 @@ Estructura
 - 📁 video/: Contendrá el video demostrativo del proyecto.
 
 Autor:
-- Carlos Mario Rendón Martínez
+- Carlos Mario Rendón Martínez:
 Descripción 
 Aquí se documenta todo el proceso de resolución del desafío, desde la
 interpretación del problema hasta la solución implementada en código y el video explicativo.
