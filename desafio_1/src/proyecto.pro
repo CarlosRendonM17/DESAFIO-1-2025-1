@@ -1,14 +1,15 @@
 QT -= gui
-CONFIG += c++11 console
+CONFIG += c++17 console
 CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += \
-    main_caso1.cpp \
-    main_caso2.cpp \
-    Muestras.cpp \
-    Frecuencia.cpp \
-    Amplitud.cpp \
-    Reconstruccion.cpp
+    src/main_caso1.cpp \
+    src/main_caso2.cpp \
+    src/Muestras.cpp \
+    src/Frecuencia.cpp \
+    src/Amplitud.cpp \
+    src/Reconstruccion.cpp
 
-HEADERS += funciones.h
+HEADERS += \
+    src/funciones.h
