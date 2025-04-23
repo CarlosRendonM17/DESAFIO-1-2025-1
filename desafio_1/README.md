@@ -5,13 +5,15 @@ Este repositorio contiene la solución al Desafío 1 del curso del semestre 2025
  📁 Estructura del repositorio
 
 Todo el proyecto está dentro de la carpeta desafio_1, que está organizada así:
-
-- 📁 data/ → contiene las imágenes BMP y archivos .txt de máscaras (como M1.txt, etc.)
+- 📁 data/
+    - 📁 Caso1/ → contiene imágenes y máscaras del Caso 1 (I_D.bmp, I_M.bmp, M1.txt, etc.)
+    - 📁 Caso2/ → contiene imágenes y máscaras del Caso 2 (I_D.bmp, I_M.bmp, M0.txt - M6.txt, etc.)
 - 📁 src/ → contiene todo el código fuente del programa
 - 📁 video/ → estará el video explicativo del proyecto (cuando esté listo)
 - 📄 DESAFÍO 1-2025 1.PDF → es el informe técnico del desafío
 - 📄 proyecto.pro → archivo para abrir el proyecto en Qt Creator
 - 📄 README.md → este mismo archivo
+
 
  🧪 ¿Qué hace este proyecto?
 
@@ -35,7 +37,9 @@ Todo esto pasa automáticamente y se muestra en consola si se logró o no.
 - Restricciones: no se usan STL, vectores, ni estructuras
 
  🗂️ Archivos importantes
-
+- data/
+    -  Caso1/ → contiene imágenes y máscaras del Caso 1 (I_D.bmp, I_M.bmp, M1.txt, etc.)
+    -  Caso2/ → contiene imágenes y máscaras del Caso 2 (I_D.bmp, I_M.bmp, M0.txt - M6.txt, etc.)
 - DESAFÍO 1-2025 1.PDF → el informe donde explico todo lo que hice
 - src/funciones.h → ahí están todas las funciones declaradas
 - proyecto.pro → para compilarlo en Qt Creator
